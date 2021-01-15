@@ -6,7 +6,7 @@
             "type": "string",
             "defaultValue": "VNet-001",
             "metadata": {
-                "description": "Virtual Network Name"
+                "description": "Virtual Network Name Name"
             }
         },
         "CostCenterIO": {
