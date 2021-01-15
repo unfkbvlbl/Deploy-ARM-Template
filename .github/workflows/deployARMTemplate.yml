@@ -12,8 +12,14 @@ jobs:
   deploy-virtual-network-template:
     runs-on: ubuntu-latest
     steps:
+      - name: Echo
+        run: echo "test1"
+        
       - name: Checkout source code
         uses: actions/checkout@master
+      
+      - name: Echo2
+        run: echo "test $GITHUB_WORKSPACE"
 
       - name: Login to Azure
         uses: azure/login@v1
