@@ -6,7 +6,7 @@ on:
       - master
 env:
   AZURE_SUBSCRIPTION_ID: c059c401-bbbb-4dac-be3c-12b3a41c77ee   # set this to your Azure Subscription Id
-  AZURE_RESOURCE_GROUP: github_tutorial_rg   # set this to your target resource group
+  AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource group
 
 jobs:
   deploy-virtual-network-template:
